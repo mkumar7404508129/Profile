@@ -1,0 +1,42 @@
+#aboutSection {
+    font-family: sans-serif;
+    font-size: medium;
+    font-style: normal;
+    margin-left: 10%;
+}
+
+.spanTxt {
+    font-weight: bold;
+    color: rgba(0, 225, 255, 0.836);
+}
+ 
+
+.h1 {
+    display: block;
+    float: left;
+    font-size: 30px;
+    clear: both;
+}
+
+.p1 {
+    font-size: 15px;
+    clear: both;
+    text-align: left;
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+address {
+    text-align: left;
+    float: right;
+    width: 50%;
+    height: auto;
+}
+@media only screen and (max-width: 500px) {
+   
+    .p1,address{
+        width: 100%;
+        float: none;
+    }
+}

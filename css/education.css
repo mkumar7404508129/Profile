@@ -1,0 +1,120 @@
+#body {
+    font-family: sans-serif;
+    padding-left: 10px;
+    font-display: bold;
+}
+
+#h1Resume {
+    font-size: 30px;
+    font-weight: bolder;
+    float: left;
+}
+
+#resEducation {
+    width: 45%;
+    clear: both;
+    float: left;
+    text-align: left;
+}
+
+.eduBody {
+    clear: both;
+}
+
+.Time {
+    margin: 0px;
+    text-align: right;
+    width: 35%;
+    float: left;
+}
+
+.spanDate {
+    font-weight: bold;
+}
+
+.spanName {
+    display: block;
+    color: rgba(64, 113, 165, 0.651);
+}
+
+.progress {
+    width: 1px;
+    display: block;
+    float: left;
+}
+
+.progress:before {
+    content: ".";
+    top: 1px;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(96, 163, 221);
+    display: block;
+    line-height: 20px;
+    border: 3px solid rgb(160, 53, 53);
+    border-radius: 100%;
+}
+
+.description .spanName {
+    font-size: 15px;
+    color: black;
+}
+
+.description {
+    width: 60%;
+    float: right;
+}
+
+.spanKnow {
+    position: relative;
+    background-color: rgb(48, 214, 219);
+    padding: 5px;
+}
+
+.spanP {
+    clear: both;
+}
+
+.desRight {
+    float: right;
+    width: 50%;
+}
+
+.desing {
+    width: 90%;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.spanRtext {
+    float: left;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.spanRpercent {
+    font-weight: 100;
+    float: right;
+    margin-right: 5%;
+}
+
+progress {
+    width: 80%;
+    background-color: aliceblue;
+    border: 3px solid rgb(202, 49, 49);
+    border-radius: 20px;
+    height: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.h3 {
+    float: left;
+}
+@media only screen and (max-width: 500px) {
+   
+    .desRight ,#resEducation{
+        width: 98%;
+        float: none;
+    }
+}
