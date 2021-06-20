@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>websiteWebChat</title>
+
+    <link rel="stylesheet" href="/css/portDetails.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div id="box">
+        
+        <div id="portBtn">
+            <a class="nav_btn" onclick="nav_btn('back')" href="#">&#10094;</a>
+            <a class="nav_btn" onclick="nav_btn('next')" href="#">&#10095;</a>
+            <a class="nav_btn" onclick="nav_btn('close')" href="#">&#10005;</a>
+        </div>
+        <h1 id="heading">heading</h1>
+
+        <div class="portImg">
+            <div id="img_container" class="img_container">
+                <div class="slide fade">
+                    <div class="numberText">1/3</div>
+                    <img src="/image/about.png" alt="">
+                    <div class="captionText">Cation Text</div>
+                </div>
+                <a class="left" onclick="plusSlide(-1)" href="#">&#10094;</a>
+                <a class="right" onclick="plusSlide(1)" href="#">&#10095;</a>
+            </div>
+            <div id="dot_btn" class="dot_btn">
+                <span class="dot" onclick="currentslide(1)"></span>
+            </div>
+        </div>
+
+        <div class="portDescription">
+            <h3>Description</h1>
+                <p id="portDescription">
+                    <span class="title"><i class="material-icons">person</i>
+                        Nripender</span>
+                    <br>
+                    <span class="title"><a href=""><a href=""><i class="material-icons">language</i>
+                                www.hellow.com</a></span>
+                    <br>
+                    <span class="title">
+                        <i class="material-icons">today</i>
+                        date</span>
+                    <br>
+                    <span class="title">jdjalksdkaskdksaj</span>
+                </p>
+                <h3>Technology & Language</h3>
+                <div class="technology">
+                    <p id="language"><span>html</span></p>
+                </div>
+        </div>
+
+    </div>
+    <script src="/JavaScript/portDetail.js"></script>
+</body>
+
+</html>
